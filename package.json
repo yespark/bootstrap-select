@@ -51,7 +51,7 @@
   },
   "scripts": {
     "cypress:open": "cypress open",
-    "tests": "npx cypress run -- --browser chrome"
+    "tests": "bunx cypress run --browser chrome"
   },
   "browserslist": [
     "Android 2.3",

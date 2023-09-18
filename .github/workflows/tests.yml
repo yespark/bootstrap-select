@@ -21,4 +21,4 @@ jobs:
         with:
           start: cypress:open
           wait-on: 'http://localhost:3000'
-          command: bunx cypress run -- --browser ${{ matrix.browser }}
+          command: bunx cypress run --browser ${{ matrix.browser }}
