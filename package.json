@@ -26,8 +26,7 @@
   "license": "MIT",
   "dependencies": {},
   "peerDependencies": {
-    "jquery": "1.9.1 - 3",
-    "bootstrap": ">=3.0.0"
+    "typescript": "^5.0.0"
   },
   "devDependencies": {
     "autoprefixer": "^9.8.7",
@@ -47,9 +46,17 @@
     "grunt-postcss": "^0.9.0",
     "grunt-version": "^3.0.1",
     "load-grunt-tasks": "^5.1.0",
-    "uuid": "^9.0.1"
+    "uuid": "^9.0.1",
+    "bun-types": "latest"
   },
   "scripts": {
+    "build-css": "grunt build-css",
+    "build-js": "grunt build-js",
+    "copy-docs": "grunt copy-docs",
+    "build": "grunt build",
+    "dev-watch": "grunt dev-watch",
+    "dist": "grunt dist",
+    "lint": "grunt lint",
     "cypress:open": "cypress open",
     "tests": "cypress run --browser chrome"
   },

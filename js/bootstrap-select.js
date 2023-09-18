@@ -1161,7 +1161,7 @@
       if (this.options.header) {
         header =
           '<div class="' + classNames.POPOVERHEADER + '">' +
-            '<button type="button" class="close" aria-hidden="true">&times;</button>' +
+            '<button type="button" class="btn-close float-end" aria-label="Close"></button>' +
               this.options.header +
           '</div>';
       }
@@ -2725,6 +2725,9 @@
       }
 
       this.$element.on('shown' + EVENT_KEY, function () {
+        // https://github.com/snapappointments/bootstrap-select/pull/2841
+        that.createView(false, true);
+
         if (that.$menuInner[0].scrollTop !== that.selectpicker.view.scrollTop) {
           that.$menuInner[0].scrollTop = that.selectpicker.view.scrollTop;
         }
@@ -2973,6 +2976,11 @@
 
       this.$searchbox.on('input propertychange', function () {
         var searchValue = that.$searchbox[0].value;
+        // https://github.com/snapappointments/bootstrap-select/pull/2844/files#diff-eca1e0510b5a8b4008f5f3296b930bb43428760a66b4695fc69655d2f05ae5b0
+        var isWhitespace = /^\s*$/.test(searchValue);
+        if (!isWhitespace) {
+          searchValue = searchValue.replace(/^\s+|\s+$/g, '');
+        }
 
         that.selectpicker.search.elements = [];
         that.selectpicker.search.data = [];
@@ -3063,7 +3071,8 @@
 
         if (!Array.isArray(value)) value = [ value ];
 
-        value.map(String);
+        // https://github.com/snapappointments/bootstrap-select/pull/2817/files#diff-eca1e0510b5a8b4008f5f3296b930bb43428760a66b4695fc69655d2f05ae5b0
+        value = value.map(String);
 
         for (var i = 0; i < selectedOptions.length; i++) {
           var item = selectedOptions[i];

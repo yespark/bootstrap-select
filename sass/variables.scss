@@ -1,5 +1,7 @@
 $color-red-error: rgb(185, 74, 72) !default;
-$color-green-success: #28a745;
+// https://github.com/snapappointments/bootstrap-select/pull/2842/files#diff-fac8f309895f03736775edda0d8a548b827c3fe5ecfa6ed790e5168525a50eee
+$color-green-success: #28a745 !default;
+//$color-green-success: #28a745;
 $color-grey-arrow: rgba(204, 204, 204, 0.2) !default;
 
 $width-default: 220px !default; // 3 960px-grid columns

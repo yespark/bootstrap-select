@@ -1,3 +1,13 @@
+### Fork changes
+- using dev branch
+- upgrade packages
+- migrate to bun
+- focus on bootstrap 5
+- merge https://github.com/snapappointments/bootstrap-select/pull/2841
+- merge https://github.com/snapappointments/bootstrap-select/pull/2842
+- merge https://github.com/snapappointments/bootstrap-select/pull/2844
+- merge https://github.com/snapappointments/bootstrap-select/pull/2608
+
 # v1.14.0-beta3 (2021-04-20)
 
 ### Bug fixes
