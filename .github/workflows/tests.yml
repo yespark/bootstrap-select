@@ -26,6 +26,6 @@ jobs:
           install-command: bun install
           DEBUG: '@cypress/github-action'
           # DEBUG: 'cypress:*'
-          start: bun run cypress:open
-          wait-on: 'http://localhost:3000'
+          # start: bun run cypress:open
+          # wait-on: 'http://localhost:3000'
           command: bun cypress run --browser ${{ matrix.browser }}
