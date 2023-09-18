@@ -6,7 +6,7 @@
 
 <p align="center">
 	<a href="https://github.com/yespark/bootstrap-select/releases/latest" target="_blank">
-		<img src="https://img.shields.io/github/release/snapappointments/bootstrap-select.svg" alt="Latest release">
+		<img src="https://img.shields.io/github/release/yespark/bootstrap-select.svg" alt="Latest release">
 	</a>
 	<a href="https://www.npmjs.com/package/bootstrap-select" target="_blank">
 		<img src="https://img.shields.io/npm/v/bootstrap-select.svg" alt="npm">
@@ -44,7 +44,7 @@ Several quick start options are available:
 - Clone the repo: `git clone https://github.com/yespark/bootstrap-select.git`
 - Install with [npm](https://www.npmjs.com/package/bootstrap-select): `npm install bootstrap-select`
 - Install with [yarn](https://yarnpkg.com/package/bootstrap-select): `yarn add bootstrap-select`
-- Install with [Composer](https://packagist.org/packages/snapappointments/bootstrap-select): `composer require snapappointments/bootstrap-select`
+- Install with [Composer](https://packagist.org/packages/yespark/bootstrap-select): `composer require yespark/bootstrap-select`
 - Install with [NuGet](https://www.nuget.org/packages/bootstrap-select): `Install-Package bootstrap-select`
 - Install with [Bower](https://bower.io): `bower install bootstrap-select`
 - Install via CDN ([cdnjs](https://cdnjs.com/libraries/bootstrap-select), [jsDelivr](https://www.jsdelivr.com/package/npm/bootstrap-select) or [PageCDN](https://pagecdn.com/lib/bootstrap-select)):

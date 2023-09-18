@@ -37,17 +37,17 @@ $(document).ready(function() {
       ctrl.example.files = [
         {
           name: 'index.html',
-          url: 'https://raw.githubusercontent.com/snapappointments/bootstrap-select/dev/tests/bootstrap' + bootstrapVersion + '.html',
+          url: 'https://raw.githubusercontent.com/yespark/bootstrap-select/dev/tests/bootstrap' + bootstrapVersion + '.html',
           content: ''
         },
         {
           name: 'js/bootstrap-select.js',
-          url: 'https://raw.githubusercontent.com/snapappointments/bootstrap-select/dev/docs/docs/dist/js/bootstrap-select.js',
+          url: 'https://raw.githubusercontent.com/yespark/bootstrap-select/dev/docs/docs/dist/js/bootstrap-select.js',
           content: ''
         },
         {
           name: 'css/bootstrap-select.css',
-          url: 'https://raw.githubusercontent.com/snapappointments/bootstrap-select/dev/docs/docs/dist/css/bootstrap-select.css',
+          url: 'https://raw.githubusercontent.com/yespark/bootstrap-select/dev/docs/docs/dist/css/bootstrap-select.css',
           content: ''
         }
       ]
