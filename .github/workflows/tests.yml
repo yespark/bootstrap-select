@@ -4,7 +4,7 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.event.pull_request.head.ref || github.head_ref || github.ref }}
   cancel-in-progress: true
 jobs:
-  tests:
+  run-tests:
     runs-on: ubuntu-latest
     container:
       image: cypress/browsers:latest
