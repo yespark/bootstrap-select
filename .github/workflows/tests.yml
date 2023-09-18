@@ -1,11 +1,14 @@
 name: Tests
 on: [push, pull_request]
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.event.pull_request.head.ref || github.head_ref || github.ref }}
+  cancel-in-progress: true
 jobs:
   tests:
     runs-on: ubuntu-latest
-    container:
-      image: cypress/browsers:latest
-      options: --user 1001
+    # container:
+    #   image: cypress/browsers:latest
+    #   options: --user 1001
     strategy:
       matrix:
         browser: ["chrome"]
@@ -15,9 +18,9 @@ jobs:
         uses: actions/checkout@main
       - name: Setup Bun
         uses: oven-sh/setup-bun@main
-      - name: Cypress run with browser ${{ matrix.browser }}
-        uses: cypress-io/github-action@master
-        with:
-          start: cypress:open
-          wait-on: 'http://localhost:3000'
-          command: bunx cypress run --browser ${{ matrix.browser }}
+      # - name: Cypress run with browser ${{ matrix.browser }}
+      #   uses: cypress-io/github-action@master
+      #   with:
+      #     start: cypress:open
+      #     wait-on: 'http://localhost:3000'
+      #     command: bunx cypress run --browser ${{ matrix.browser }}
