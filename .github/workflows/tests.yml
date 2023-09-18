@@ -23,8 +23,7 @@ jobs:
       - name: Cypress run with browser ${{ matrix.browser }}
         uses: cypress-io/github-action@master
         env:
-          DEBUG: '@cypress/github-action'
-          # DEBUG: 'cypress:*'
+          DEBUG: 'cypress:*'
         with:
           install-command: bun install
           command: bun cypress run --browser ${{ matrix.browser }}
