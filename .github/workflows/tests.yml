@@ -22,10 +22,11 @@ jobs:
           bun-version: canary
       - name: Cypress run with browser ${{ matrix.browser }}
         uses: cypress-io/github-action@master
-        with:
-          install-command: bun install
+        env:
           DEBUG: '@cypress/github-action'
           # DEBUG: 'cypress:*'
+        with:
+          install-command: bun install
+          command: bun cypress run --browser ${{ matrix.browser }}
           # start: bun run cypress:open
           # wait-on: 'http://localhost:3000'
-          command: bun cypress run --browser ${{ matrix.browser }}
