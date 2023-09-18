@@ -34,23 +34,23 @@
 
 This project is now mainly maintained by @NicolasCARPi.
 
-[#2634]: https://github.com/snapappointments/bootstrap-select/issues/2634
-[#2669]: https://github.com/snapappointments/bootstrap-select/issues/2669
-[#2627]: https://github.com/snapappointments/bootstrap-select/issues/2627
-[#2616]: https://github.com/snapappointments/bootstrap-select/issues/2616
-[#2600]: https://github.com/snapappointments/bootstrap-select/issues/2600
-[#2367]: https://github.com/snapappointments/bootstrap-select/issues/2367
-[#2585]: https://github.com/snapappointments/bootstrap-select/issues/2585
-[#2659]: https://github.com/snapappointments/bootstrap-select/issues/2659
-[#2671]: https://github.com/snapappointments/bootstrap-select/issues/2671
-[#2593]: https://github.com/snapappointments/bootstrap-select/issues/2593
-[#2625]: https://github.com/snapappointments/bootstrap-select/issues/2625
-[#2621]: https://github.com/snapappointments/bootstrap-select/issues/2621
-[#2305]: https://github.com/snapappointments/bootstrap-select/issues/2305
-[#2680]: https://github.com/snapappointments/bootstrap-select/issues/2680
-[#2617]: https://github.com/snapappointments/bootstrap-select/issues/2617
-[#2678]: https://github.com/snapappointments/bootstrap-select/issues/2678
-[#2683]: https://github.com/snapappointments/bootstrap-select/issues/2683
+[#2634]: https://github.com/yespark/bootstrap-select/issues/2634
+[#2669]: https://github.com/yespark/bootstrap-select/issues/2669
+[#2627]: https://github.com/yespark/bootstrap-select/issues/2627
+[#2616]: https://github.com/yespark/bootstrap-select/issues/2616
+[#2600]: https://github.com/yespark/bootstrap-select/issues/2600
+[#2367]: https://github.com/yespark/bootstrap-select/issues/2367
+[#2585]: https://github.com/yespark/bootstrap-select/issues/2585
+[#2659]: https://github.com/yespark/bootstrap-select/issues/2659
+[#2671]: https://github.com/yespark/bootstrap-select/issues/2671
+[#2593]: https://github.com/yespark/bootstrap-select/issues/2593
+[#2625]: https://github.com/yespark/bootstrap-select/issues/2625
+[#2621]: https://github.com/yespark/bootstrap-select/issues/2621
+[#2305]: https://github.com/yespark/bootstrap-select/issues/2305
+[#2680]: https://github.com/yespark/bootstrap-select/issues/2680
+[#2617]: https://github.com/yespark/bootstrap-select/issues/2617
+[#2678]: https://github.com/yespark/bootstrap-select/issues/2678
+[#2683]: https://github.com/yespark/bootstrap-select/issues/2683
 
 # v1.14.0-beta2 (2021-03-25)
 
@@ -61,9 +61,9 @@ This project is now mainly maintained by @NicolasCARPi.
 - [#2576]: use vanilla JS selector to get first option (performance)
 - [#2578]: Fix allowClear so that it triggers change events
 
-[#2505]: https://github.com/snapappointments/bootstrap-select/issues/2505
-[#2576]: https://github.com/snapappointments/bootstrap-select/pull/2576
-[#2578]: https://github.com/snapappointments/bootstrap-select/issues/2578
+[#2505]: https://github.com/yespark/bootstrap-select/issues/2505
+[#2576]: https://github.com/yespark/bootstrap-select/pull/2576
+[#2578]: https://github.com/yespark/bootstrap-select/issues/2578
 
 -------------------
 
@@ -84,16 +84,16 @@ This project is now mainly maintained by @NicolasCARPi.
 - [#1709]: use DOMContentLoaded event listener to auto-init bootstrap-select (performance boost)
 - [#2259]: Drop IE8 support
 
-[#899]: https://github.com/snapappointments/bootstrap-select/issues/899
-[#1315]: https://github.com/snapappointments/bootstrap-select/issues/1315
-[#1416]: https://github.com/snapappointments/bootstrap-select/issues/1416
-[#2147]: https://github.com/snapappointments/bootstrap-select/issues/2147
-[#1449]: https://github.com/snapappointments/bootstrap-select/issues/1449
-[#1893]: https://github.com/snapappointments/bootstrap-select/issues/1893
-[#2042]: https://github.com/snapappointments/bootstrap-select/issues/2042
-[#2507]: https://github.com/snapappointments/bootstrap-select/issues/2507
-[#1709]: https://github.com/snapappointments/bootstrap-select/issues/1709
-[#2259]: https://github.com/snapappointments/bootstrap-select/issues/2259
+[#899]: https://github.com/yespark/bootstrap-select/issues/899
+[#1315]: https://github.com/yespark/bootstrap-select/issues/1315
+[#1416]: https://github.com/yespark/bootstrap-select/issues/1416
+[#2147]: https://github.com/yespark/bootstrap-select/issues/2147
+[#1449]: https://github.com/yespark/bootstrap-select/issues/1449
+[#1893]: https://github.com/yespark/bootstrap-select/issues/1893
+[#2042]: https://github.com/yespark/bootstrap-select/issues/2042
+[#2507]: https://github.com/yespark/bootstrap-select/issues/2507
+[#1709]: https://github.com/yespark/bootstrap-select/issues/1709
+[#2259]: https://github.com/yespark/bootstrap-select/issues/2259
 
 -------------------
 
@@ -107,13 +107,13 @@ This project is now mainly maintained by @NicolasCARPi.
 - [#2483]: Dropdown with unselectable index 0 will not scroll to top on arrow_down with last index selected
 - [#2491]: remove placeholder/title option when destroying selectpicker
 
-[#1342]: https://github.com/snapappointments/bootstrap-select/issues/1342
-[#2402]: https://github.com/snapappointments/bootstrap-select/issues/2402
-[#2464]: https://github.com/snapappointments/bootstrap-select/issues/2464
-[#2469]: https://github.com/snapappointments/bootstrap-select/issues/2469
-[#2474]: https://github.com/snapappointments/bootstrap-select/issues/2474
-[#2483]: https://github.com/snapappointments/bootstrap-select/issues/2483
-[#2491]: https://github.com/snapappointments/bootstrap-select/issues/2491
+[#1342]: https://github.com/yespark/bootstrap-select/issues/1342
+[#2402]: https://github.com/yespark/bootstrap-select/issues/2402
+[#2464]: https://github.com/yespark/bootstrap-select/issues/2464
+[#2469]: https://github.com/yespark/bootstrap-select/issues/2469
+[#2474]: https://github.com/yespark/bootstrap-select/issues/2474
+[#2483]: https://github.com/yespark/bootstrap-select/issues/2483
+[#2491]: https://github.com/yespark/bootstrap-select/issues/2491
 
 -------------------
 
@@ -124,10 +124,10 @@ This project is now mainly maintained by @NicolasCARPi.
 - [#1828]: selectpicker('mobile') not working on iOS
 - [#2448]: Incorrect dropdown style when Bootstrap 4 version is not auto detected since 1.13.13
 
-[#478]: https://github.com/snapappointments/bootstrap-select/issues/478
-[#1023]: https://github.com/snapappointments/bootstrap-select/issues/1023
-[#1828]: https://github.com/snapappointments/bootstrap-select/issues/1828
-[#2448]: https://github.com/snapappointments/bootstrap-select/issues/2448
+[#478]: https://github.com/yespark/bootstrap-select/issues/478
+[#1023]: https://github.com/yespark/bootstrap-select/issues/1023
+[#1828]: https://github.com/yespark/bootstrap-select/issues/1828
+[#2448]: https://github.com/yespark/bootstrap-select/issues/2448
 
 -------------------
 
@@ -141,13 +141,13 @@ This project is now mainly maintained by @NicolasCARPi.
 - [#2445]: Problem with refresh and selected item
 - [#2446]: Bootstrap select property dataApiKeydownHandler error
 
-[#2380]: https://github.com/snapappointments/bootstrap-select/issues/2380
-[#2381]: https://github.com/snapappointments/bootstrap-select/issues/2381
-[#2391]: https://github.com/snapappointments/bootstrap-select/issues/2391
-[#2393]: https://github.com/snapappointments/bootstrap-select/issues/2393
-[#2442]: https://github.com/snapappointments/bootstrap-select/issues/2442
-[#2445]: https://github.com/snapappointments/bootstrap-select/issues/2445
-[#2446]: https://github.com/snapappointments/bootstrap-select/issues/2446
+[#2380]: https://github.com/yespark/bootstrap-select/issues/2380
+[#2381]: https://github.com/yespark/bootstrap-select/issues/2381
+[#2391]: https://github.com/yespark/bootstrap-select/issues/2391
+[#2393]: https://github.com/yespark/bootstrap-select/issues/2393
+[#2442]: https://github.com/yespark/bootstrap-select/issues/2442
+[#2445]: https://github.com/yespark/bootstrap-select/issues/2445
+[#2446]: https://github.com/yespark/bootstrap-select/issues/2446
 
 -------------------
 
@@ -156,8 +156,8 @@ This project is now mainly maintained by @NicolasCARPi.
 - [#2430]: hasOwnProperty error with jQuery 3.5.0
 - [#2439]: error setting bootstrapKeydown if Bootstrap not yet loaded
 
-[#2430]: https://github.com/snapappointments/bootstrap-select/issues/2430
-[#2439]: https://github.com/snapappointments/bootstrap-select/issues/2439
+[#2430]: https://github.com/yespark/bootstrap-select/issues/2430
+[#2439]: https://github.com/yespark/bootstrap-select/issues/2439
 
 -------------------
 
@@ -172,13 +172,13 @@ This project is now mainly maintained by @NicolasCARPi.
 - [#2196]: Add Serbian translations
 - [#2340]: Add Thai translations
 
-[#2436]: https://github.com/snapappointments/bootstrap-select/issues/2436
-[#2437]: https://github.com/snapappointments/bootstrap-select/issues/2437
+[#2436]: https://github.com/yespark/bootstrap-select/issues/2436
+[#2437]: https://github.com/yespark/bootstrap-select/issues/2437
 
-[#2195]: https://github.com/snapappointments/bootstrap-select/pull/2195
-[#2274]: https://github.com/snapappointments/bootstrap-select/pull/2274
-[#2196]: https://github.com/snapappointments/bootstrap-select/pull/2196
-[#2340]: https://github.com/snapappointments/bootstrap-select/pull/2340
+[#2195]: https://github.com/yespark/bootstrap-select/pull/2195
+[#2274]: https://github.com/yespark/bootstrap-select/pull/2274
+[#2196]: https://github.com/yespark/bootstrap-select/pull/2196
+[#2340]: https://github.com/yespark/bootstrap-select/pull/2340
 
 -------------------
 
@@ -191,12 +191,12 @@ This project is now mainly maintained by @NicolasCARPi.
 - [#2272]: Class bs-placeholder is no longer set on "default" values in 1.13.10
 - [#2352]: "Deselect All" doesn't consistently work with virtual scroll
 
-[#2339]: https://github.com/snapappointments/bootstrap-select/issues/2339
-[#2337]: https://github.com/snapappointments/bootstrap-select/issues/2337
-[#2320]: https://github.com/snapappointments/bootstrap-select/issues/2320
-[#2308]: https://github.com/snapappointments/bootstrap-select/issues/2308
-[#2272]: https://github.com/snapappointments/bootstrap-select/issues/2272
-[#2352]: https://github.com/snapappointments/bootstrap-select/issues/2352
+[#2339]: https://github.com/yespark/bootstrap-select/issues/2339
+[#2337]: https://github.com/yespark/bootstrap-select/issues/2337
+[#2320]: https://github.com/yespark/bootstrap-select/issues/2320
+[#2308]: https://github.com/yespark/bootstrap-select/issues/2308
+[#2272]: https://github.com/yespark/bootstrap-select/issues/2272
+[#2352]: https://github.com/yespark/bootstrap-select/issues/2352
 
 -------------------
 
@@ -211,12 +211,12 @@ This project is now mainly maintained by @NicolasCARPi.
 ### Improvements
 - [#2243]: change liveSearch input type from "text" to "search"
 
-[#2176]: https://github.com/snapappointments/bootstrap-select/pull/2176
-[#2243]: https://github.com/snapappointments/bootstrap-select/pull/2243
-[#2321]: https://github.com/snapappointments/bootstrap-select/issues/2321
-[#2308]: https://github.com/snapappointments/bootstrap-select/issues/2308
-[#2275]: https://github.com/snapappointments/bootstrap-select/issues/2275
-[#2273]: https://github.com/snapappointments/bootstrap-select/issues/2273
+[#2176]: https://github.com/yespark/bootstrap-select/pull/2176
+[#2243]: https://github.com/yespark/bootstrap-select/pull/2243
+[#2321]: https://github.com/yespark/bootstrap-select/issues/2321
+[#2308]: https://github.com/yespark/bootstrap-select/issues/2308
+[#2275]: https://github.com/yespark/bootstrap-select/issues/2275
+[#2273]: https://github.com/yespark/bootstrap-select/issues/2273
 
 -------------------
 
@@ -228,11 +228,11 @@ This project is now mainly maintained by @NicolasCARPi.
 - [#2289]: Multiple ticks in optgroup with data-max-options defined as "1"
 - [#2326]: In IE11, options aren't visible when moving to bottom via "up" arrow key if select has an optgroup
 
-[#2263]: https://github.com/snapappointments/bootstrap-select/issues/2263
-[#2266]: https://github.com/snapappointments/bootstrap-select/issues/2266
-[#2285]: https://github.com/snapappointments/bootstrap-select/issues/2285
-[#2289]: https://github.com/snapappointments/bootstrap-select/issues/2289
-[#2326]: https://github.com/snapappointments/bootstrap-select/issues/2326
+[#2263]: https://github.com/yespark/bootstrap-select/issues/2263
+[#2266]: https://github.com/yespark/bootstrap-select/issues/2266
+[#2285]: https://github.com/yespark/bootstrap-select/issues/2285
+[#2289]: https://github.com/yespark/bootstrap-select/issues/2289
+[#2326]: https://github.com/yespark/bootstrap-select/issues/2326
 
 -------------------
 
@@ -247,14 +247,14 @@ This project is now mainly maintained by @NicolasCARPi.
 - [#2256]: selected option styling is not updated if .selectpicker('val', x) is called while dropdown menu is open
 - [#2258]: menu size doesn't update when virtualScroll is disabled while the menu is open
 
-[#1219]: https://github.com/snapappointments/bootstrap-select/issues/1219
-[#2109]: https://github.com/snapappointments/bootstrap-select/issues/2109
-[#2126]: https://github.com/snapappointments/bootstrap-select/issues/2126
-[#2153]: https://github.com/snapappointments/bootstrap-select/issues/2153
-[#2251]: https://github.com/snapappointments/bootstrap-select/issues/2251
-[#2253]: https://github.com/snapappointments/bootstrap-select/issues/2253
-[#2256]: https://github.com/snapappointments/bootstrap-select/issues/2256
-[#2258]: https://github.com/snapappointments/bootstrap-select/issues/2258
+[#1219]: https://github.com/yespark/bootstrap-select/issues/1219
+[#2109]: https://github.com/yespark/bootstrap-select/issues/2109
+[#2126]: https://github.com/yespark/bootstrap-select/issues/2126
+[#2153]: https://github.com/yespark/bootstrap-select/issues/2153
+[#2251]: https://github.com/yespark/bootstrap-select/issues/2251
+[#2253]: https://github.com/yespark/bootstrap-select/issues/2253
+[#2256]: https://github.com/yespark/bootstrap-select/issues/2256
+[#2258]: https://github.com/yespark/bootstrap-select/issues/2258
 
 -------------------
 
@@ -273,18 +273,18 @@ This project is now mainly maintained by @NicolasCARPi.
 - [#2245]: some default Bootstrap 4 styles are not being set when using BootstrapVersion
 - [#2248]: width: fit in IE collapses button with text overflowing
 
-[#2022]: https://github.com/snapappointments/bootstrap-select/issues/2022
-[#2106]: https://github.com/snapappointments/bootstrap-select/issues/2106
-[#2126]: https://github.com/snapappointments/bootstrap-select/issues/2126
-[#2232]: https://github.com/snapappointments/bootstrap-select/issues/2232
-[#2233]: https://github.com/snapappointments/bootstrap-select/issues/2233
-[#2234]: https://github.com/snapappointments/bootstrap-select/issues/2234
-[#2235]: https://github.com/snapappointments/bootstrap-select/issues/2235
-[#2236]: https://github.com/snapappointments/bootstrap-select/issues/2236
-[#2239]: https://github.com/snapappointments/bootstrap-select/issues/2239
-[#2244]: https://github.com/snapappointments/bootstrap-select/issues/2244
-[#2245]: https://github.com/snapappointments/bootstrap-select/issues/2245
-[#2248]: https://github.com/snapappointments/bootstrap-select/issues/2248
+[#2022]: https://github.com/yespark/bootstrap-select/issues/2022
+[#2106]: https://github.com/yespark/bootstrap-select/issues/2106
+[#2126]: https://github.com/yespark/bootstrap-select/issues/2126
+[#2232]: https://github.com/yespark/bootstrap-select/issues/2232
+[#2233]: https://github.com/yespark/bootstrap-select/issues/2233
+[#2234]: https://github.com/yespark/bootstrap-select/issues/2234
+[#2235]: https://github.com/yespark/bootstrap-select/issues/2235
+[#2236]: https://github.com/yespark/bootstrap-select/issues/2236
+[#2239]: https://github.com/yespark/bootstrap-select/issues/2239
+[#2244]: https://github.com/yespark/bootstrap-select/issues/2244
+[#2245]: https://github.com/yespark/bootstrap-select/issues/2245
+[#2248]: https://github.com/yespark/bootstrap-select/issues/2248
 
 -------------------
 
@@ -294,9 +294,9 @@ This project is now mainly maintained by @NicolasCARPi.
 - [#2229]: The height of menu is calculated incorrectly with extra css
 - [#2231]: Sanitizer error on large single selects without virtualScroll and one option selected
 
-[#1969]: https://github.com/snapappointments/bootstrap-select/issues/1969
-[#2229]: https://github.com/snapappointments/bootstrap-select/issues/2229
-[#2231]: https://github.com/snapappointments/bootstrap-select/issues/2231
+[#1969]: https://github.com/yespark/bootstrap-select/issues/1969
+[#2229]: https://github.com/yespark/bootstrap-select/issues/2229
+[#2231]: https://github.com/yespark/bootstrap-select/issues/2231
 
 -------------------
 
@@ -310,13 +310,13 @@ This project is now mainly maintained by @NicolasCARPi.
 - [#2224]: auto width (data-width="auto") not working
 - [#2226]: Selecting option by typing is not working correctly
 
-[#2046]: https://github.com/snapappointments/bootstrap-select/issues/2046
-[#2109]: https://github.com/snapappointments/bootstrap-select/issues/2109
-[#2213]: https://github.com/snapappointments/bootstrap-select/issues/2213
-[#2220]: https://github.com/snapappointments/bootstrap-select/issues/2220
-[#2221]: https://github.com/snapappointments/bootstrap-select/issues/2221
-[#2224]: https://github.com/snapappointments/bootstrap-select/issues/2224
-[#2226]: https://github.com/snapappointments/bootstrap-select/issues/2226
+[#2046]: https://github.com/yespark/bootstrap-select/issues/2046
+[#2109]: https://github.com/yespark/bootstrap-select/issues/2109
+[#2213]: https://github.com/yespark/bootstrap-select/issues/2213
+[#2220]: https://github.com/yespark/bootstrap-select/issues/2220
+[#2221]: https://github.com/yespark/bootstrap-select/issues/2221
+[#2224]: https://github.com/yespark/bootstrap-select/issues/2224
+[#2226]: https://github.com/yespark/bootstrap-select/issues/2226
 
 -------------------
 
@@ -341,22 +341,22 @@ This project is now mainly maintained by @NicolasCARPi.
 ### Security
 - [#2199]: Fixed an XSS vulnerability with data-content, data-subtext, and title options. Implemented a new HTML sanitizer for data-content.
 
-[#1321]: https://github.com/snapappointments/bootstrap-select/issues/1321
-[#1665]: https://github.com/snapappointments/bootstrap-select/issues/1665
-[#1832]: https://github.com/snapappointments/bootstrap-select/issues/1832
-[#2078]: https://github.com/snapappointments/bootstrap-select/issues/2078
-[#2150]: https://github.com/snapappointments/bootstrap-select/issues/2150
-[#2163]: https://github.com/snapappointments/bootstrap-select/issues/2163
-[#2166]: https://github.com/snapappointments/bootstrap-select/issues/2166
-[#2187]: https://github.com/snapappointments/bootstrap-select/issues/2187
-[#2189]: https://github.com/snapappointments/bootstrap-select/issues/2189
-[#2198]: https://github.com/snapappointments/bootstrap-select/issues/2198
-[#2199]: https://github.com/snapappointments/bootstrap-select/issues/2199
-[#2202]: https://github.com/snapappointments/bootstrap-select/issues/2202
-[#2206]: https://github.com/snapappointments/bootstrap-select/issues/2206
-[#2210]: https://github.com/snapappointments/bootstrap-select/issues/2210
-[#2217]: https://github.com/snapappointments/bootstrap-select/issues/2217
-[#2199]: https://github.com/snapappointments/bootstrap-select/issues/2199
+[#1321]: https://github.com/yespark/bootstrap-select/issues/1321
+[#1665]: https://github.com/yespark/bootstrap-select/issues/1665
+[#1832]: https://github.com/yespark/bootstrap-select/issues/1832
+[#2078]: https://github.com/yespark/bootstrap-select/issues/2078
+[#2150]: https://github.com/yespark/bootstrap-select/issues/2150
+[#2163]: https://github.com/yespark/bootstrap-select/issues/2163
+[#2166]: https://github.com/yespark/bootstrap-select/issues/2166
+[#2187]: https://github.com/yespark/bootstrap-select/issues/2187
+[#2189]: https://github.com/yespark/bootstrap-select/issues/2189
+[#2198]: https://github.com/yespark/bootstrap-select/issues/2198
+[#2199]: https://github.com/yespark/bootstrap-select/issues/2199
+[#2202]: https://github.com/yespark/bootstrap-select/issues/2202
+[#2206]: https://github.com/yespark/bootstrap-select/issues/2206
+[#2210]: https://github.com/yespark/bootstrap-select/issues/2210
+[#2217]: https://github.com/yespark/bootstrap-select/issues/2217
+[#2199]: https://github.com/yespark/bootstrap-select/issues/2199
 
 -------------------
 
@@ -364,7 +364,7 @@ This project is now mainly maintained by @NicolasCARPi.
 ### Bug Fixes
 - [#2160]: Selects with a title option throw an error in the render function
 
-[#2160]: https://github.com/snapappointments/bootstrap-select/issues/2160
+[#2160]: https://github.com/yespark/bootstrap-select/issues/2160
 
 -------------------
 
@@ -389,24 +389,24 @@ This project is now mainly maintained by @NicolasCARPi.
 - [#1910]: Amharic locale
 - [#1926]: Latvian locale
 
-[#767]: https://github.com/snapappointments/bootstrap-select/issues/767
-[#1876]: https://github.com/snapappointments/bootstrap-select/issues/1876
-[#2026]: https://github.com/snapappointments/bootstrap-select/issues/2026
-[#1710]: https://github.com/snapappointments/bootstrap-select/issues/1710
-[#1943]: https://github.com/snapappointments/bootstrap-select/issues/1943
-[#2034]: https://github.com/snapappointments/bootstrap-select/issues/2034
-[#2082]: https://github.com/snapappointments/bootstrap-select/issues/2082
-[#2105]: https://github.com/snapappointments/bootstrap-select/issues/2105
-[#2118]: https://github.com/snapappointments/bootstrap-select/issues/2118
-[#2140]: https://github.com/snapappointments/bootstrap-select/issues/2140
-[#2151]: https://github.com/snapappointments/bootstrap-select/issues/2151
-[#2125]: https://github.com/snapappointments/bootstrap-select/issues/2125
+[#767]: https://github.com/yespark/bootstrap-select/issues/767
+[#1876]: https://github.com/yespark/bootstrap-select/issues/1876
+[#2026]: https://github.com/yespark/bootstrap-select/issues/2026
+[#1710]: https://github.com/yespark/bootstrap-select/issues/1710
+[#1943]: https://github.com/yespark/bootstrap-select/issues/1943
+[#2034]: https://github.com/yespark/bootstrap-select/issues/2034
+[#2082]: https://github.com/yespark/bootstrap-select/issues/2082
+[#2105]: https://github.com/yespark/bootstrap-select/issues/2105
+[#2118]: https://github.com/yespark/bootstrap-select/issues/2118
+[#2140]: https://github.com/yespark/bootstrap-select/issues/2140
+[#2151]: https://github.com/yespark/bootstrap-select/issues/2151
+[#2125]: https://github.com/yespark/bootstrap-select/issues/2125
 
-[#1910]: https://github.com/snapappointments/bootstrap-select/pull/1910
-[#1926]: https://github.com/snapappointments/bootstrap-select/pull/1926
-[#2120]: https://github.com/snapappointments/bootstrap-select/pull/2120
-[#2121]: https://github.com/snapappointments/bootstrap-select/pull/2121
-[#2152]: https://github.com/snapappointments/bootstrap-select/pull/2152
+[#1910]: https://github.com/yespark/bootstrap-select/pull/1910
+[#1926]: https://github.com/yespark/bootstrap-select/pull/1926
+[#2120]: https://github.com/yespark/bootstrap-select/pull/2120
+[#2121]: https://github.com/yespark/bootstrap-select/pull/2121
+[#2152]: https://github.com/yespark/bootstrap-select/pull/2152
 
 -------------------
 
@@ -420,12 +420,12 @@ This project is now mainly maintained by @NicolasCARPi.
 - [#2092]: Cannot read property 'className' of undefined
 - [#2101]: Extra tick mark when using livesearch in Bootstrap 4
 
-[#1425]: https://github.com/snapappointments/bootstrap-select/issues/1425
-[#1828]: https://github.com/snapappointments/bootstrap-select/issues/1828
-[#2045]: https://github.com/snapappointments/bootstrap-select/issues/2045
-[#2086]: https://github.com/snapappointments/bootstrap-select/issues/2086
-[#2092]: https://github.com/snapappointments/bootstrap-select/issues/2092
-[#2101]: https://github.com/snapappointments/bootstrap-select/issues/2101
+[#1425]: https://github.com/yespark/bootstrap-select/issues/1425
+[#1828]: https://github.com/yespark/bootstrap-select/issues/1828
+[#2045]: https://github.com/yespark/bootstrap-select/issues/2045
+[#2086]: https://github.com/yespark/bootstrap-select/issues/2086
+[#2092]: https://github.com/yespark/bootstrap-select/issues/2092
+[#2101]: https://github.com/yespark/bootstrap-select/issues/2101
 
 -------------------
 
@@ -449,20 +449,20 @@ This project is now mainly maintained by @NicolasCARPi.
 - [#1972]: add option to manually specify Bootstrap's version
 - [#2036]: Add support for Bootstrap dropdown's display property added in v4.1.0
 
-[#1999]: https://github.com/snapappointments/bootstrap-select/issues/1999
-[#2024]: https://github.com/snapappointments/bootstrap-select/issues/2024
-[#2027]: https://github.com/snapappointments/bootstrap-select/issues/2027
-[#2029]: https://github.com/snapappointments/bootstrap-select/issues/2029
-[#2033]: https://github.com/snapappointments/bootstrap-select/issues/2033
-[#2035]: https://github.com/snapappointments/bootstrap-select/issues/2035
-[#2038]: https://github.com/snapappointments/bootstrap-select/issues/2038
-[#2044]: https://github.com/snapappointments/bootstrap-select/issues/2044
-[#2045]: https://github.com/snapappointments/bootstrap-select/issues/2045
-[#2047]: https://github.com/snapappointments/bootstrap-select/issues/2047
-[#2058]: https://github.com/snapappointments/bootstrap-select/issues/2058
-[#2079]: https://github.com/snapappointments/bootstrap-select/issues/2079
-[#1972]: https://github.com/snapappointments/bootstrap-select/issues/1972
-[#2036]: https://github.com/snapappointments/bootstrap-select/issues/2036
+[#1999]: https://github.com/yespark/bootstrap-select/issues/1999
+[#2024]: https://github.com/yespark/bootstrap-select/issues/2024
+[#2027]: https://github.com/yespark/bootstrap-select/issues/2027
+[#2029]: https://github.com/yespark/bootstrap-select/issues/2029
+[#2033]: https://github.com/yespark/bootstrap-select/issues/2033
+[#2035]: https://github.com/yespark/bootstrap-select/issues/2035
+[#2038]: https://github.com/yespark/bootstrap-select/issues/2038
+[#2044]: https://github.com/yespark/bootstrap-select/issues/2044
+[#2045]: https://github.com/yespark/bootstrap-select/issues/2045
+[#2047]: https://github.com/yespark/bootstrap-select/issues/2047
+[#2058]: https://github.com/yespark/bootstrap-select/issues/2058
+[#2079]: https://github.com/yespark/bootstrap-select/issues/2079
+[#1972]: https://github.com/yespark/bootstrap-select/issues/1972
+[#2036]: https://github.com/yespark/bootstrap-select/issues/2036
 
 -------------------
 
@@ -474,10 +474,10 @@ This project is now mainly maintained by @NicolasCARPi.
 - [#2073]: Bower description is too long
 - [#2071]: noneSelectedText not working
 
-[#2076]: https://github.com/snapappointments/bootstrap-select/issues/2076
-[#2073]: https://github.com/snapappointments/bootstrap-select/issues/2073
-[#2073]: https://github.com/snapappointments/bootstrap-select/issues/2073
-[#2071]: https://github.com/snapappointments/bootstrap-select/issues/2071
+[#2076]: https://github.com/yespark/bootstrap-select/issues/2076
+[#2073]: https://github.com/yespark/bootstrap-select/issues/2073
+[#2073]: https://github.com/yespark/bootstrap-select/issues/2073
+[#2071]: https://github.com/yespark/bootstrap-select/issues/2071
 
 -------------------
 
@@ -507,25 +507,25 @@ This project is now mainly maintained by @NicolasCARPi.
 - [#1404], [#1697]: changed.bs.select now passes through previousValue as the third parameter (instead of the previous value of the option, which was redundant). This is the value of the select prior to being changed.
 - update jQuery range to make v1.9.1 the minimum (and exclude version 4)
 
-[#2060]: https://github.com/snapappointments/bootstrap-select/issues/2060
-[#2062]: https://github.com/snapappointments/bootstrap-select/issues/2062
-[#1913]: https://github.com/snapappointments/bootstrap-select/issues/1913
-[#2061]: https://github.com/snapappointments/bootstrap-select/issues/2061
-[#2065]: https://github.com/snapappointments/bootstrap-select/issues/2065
-[#2063]: https://github.com/snapappointments/bootstrap-select/issues/2063
-[#2064]: https://github.com/snapappointments/bootstrap-select/issues/2064
-[#2066]: https://github.com/snapappointments/bootstrap-select/issues/2066
-[#2067]: https://github.com/snapappointments/bootstrap-select/issues/2067
-[#2077]: https://github.com/snapappointments/bootstrap-select/issues/2077
-[#2074]: https://github.com/snapappointments/bootstrap-select/issues/2074
-[#2068]: https://github.com/snapappointments/bootstrap-select/issues/2068
-[#2070]: https://github.com/snapappointments/bootstrap-select/issues/2070
-[#2075]: https://github.com/snapappointments/bootstrap-select/issues/2075
-[#2072]: https://github.com/snapappointments/bootstrap-select/issues/2072
-[#2069]: https://github.com/snapappointments/bootstrap-select/issues/2069
-[#1691]: https://github.com/snapappointments/bootstrap-select/issues/1691
-[#1404]: https://github.com/snapappointments/bootstrap-select/issues/1404
-[#1697]: https://github.com/snapappointments/bootstrap-select/issues/1697
+[#2060]: https://github.com/yespark/bootstrap-select/issues/2060
+[#2062]: https://github.com/yespark/bootstrap-select/issues/2062
+[#1913]: https://github.com/yespark/bootstrap-select/issues/1913
+[#2061]: https://github.com/yespark/bootstrap-select/issues/2061
+[#2065]: https://github.com/yespark/bootstrap-select/issues/2065
+[#2063]: https://github.com/yespark/bootstrap-select/issues/2063
+[#2064]: https://github.com/yespark/bootstrap-select/issues/2064
+[#2066]: https://github.com/yespark/bootstrap-select/issues/2066
+[#2067]: https://github.com/yespark/bootstrap-select/issues/2067
+[#2077]: https://github.com/yespark/bootstrap-select/issues/2077
+[#2074]: https://github.com/yespark/bootstrap-select/issues/2074
+[#2068]: https://github.com/yespark/bootstrap-select/issues/2068
+[#2070]: https://github.com/yespark/bootstrap-select/issues/2070
+[#2075]: https://github.com/yespark/bootstrap-select/issues/2075
+[#2072]: https://github.com/yespark/bootstrap-select/issues/2072
+[#2069]: https://github.com/yespark/bootstrap-select/issues/2069
+[#1691]: https://github.com/yespark/bootstrap-select/issues/1691
+[#1404]: https://github.com/yespark/bootstrap-select/issues/1404
+[#1697]: https://github.com/yespark/bootstrap-select/issues/1697
 
 -------------------
 
@@ -539,8 +539,8 @@ This project is now mainly maintained by @NicolasCARPi.
 - virtualization is now optional via `virtualScroll`. Can be set to false, true, or an integer to only use virtualization if the select has more than the specified number of options. Defaults to 600.
 - update docs to support MkDocs v0.17.0
 
-[#1034]: https://github.com/snapappointments/bootstrap-select/issues/1034
-[#1135]: https://github.com/snapappointments/bootstrap-select/issues/1135
+[#1034]: https://github.com/yespark/bootstrap-select/issues/1034
+[#1135]: https://github.com/yespark/bootstrap-select/issues/1135
 
 -------------------
 
@@ -560,16 +560,16 @@ This project is now mainly maintained by @NicolasCARPi.
 - [#1229]: Large lists and virtualization
 - [#1687]: Improve init performance
 
-[#1303]: https://github.com/snapappointments/bootstrap-select/issues/1303
-[#1383]: https://github.com/snapappointments/bootstrap-select/issues/1383
-[#1395]: https://github.com/snapappointments/bootstrap-select/issues/1395
-[#1398]: https://github.com/snapappointments/bootstrap-select/issues/1398
-[#1674]: https://github.com/snapappointments/bootstrap-select/issues/1674
-[#1692]: https://github.com/snapappointments/bootstrap-select/issues/1692
-[#710]: https://github.com/snapappointments/bootstrap-select/issues/710
-[#1110]: https://github.com/snapappointments/bootstrap-select/issues/1110
-[#1229]: https://github.com/snapappointments/bootstrap-select/issues/1229
-[#1687]: https://github.com/snapappointments/bootstrap-select/issues/1687
+[#1303]: https://github.com/yespark/bootstrap-select/issues/1303
+[#1383]: https://github.com/yespark/bootstrap-select/issues/1383
+[#1395]: https://github.com/yespark/bootstrap-select/issues/1395
+[#1398]: https://github.com/yespark/bootstrap-select/issues/1398
+[#1674]: https://github.com/yespark/bootstrap-select/issues/1674
+[#1692]: https://github.com/yespark/bootstrap-select/issues/1692
+[#710]: https://github.com/yespark/bootstrap-select/issues/710
+[#1110]: https://github.com/yespark/bootstrap-select/issues/1110
+[#1229]: https://github.com/yespark/bootstrap-select/issues/1229
+[#1687]: https://github.com/yespark/bootstrap-select/issues/1687
 
 -------------------
 
@@ -579,8 +579,8 @@ This project is now mainly maintained by @NicolasCARPi.
 - [#1286]: Event creation throws illegal constructor error on stock Android Browser < 5.0
 - [#1764]: Bootstrap-select steals focus on form.checkValidity
 
-[#1286]: https://github.com/snapappointments/bootstrap-select/issues/1286
-[#1764]: https://github.com/snapappointments/bootstrap-select/issues/1764
+[#1286]: https://github.com/yespark/bootstrap-select/issues/1286
+[#1764]: https://github.com/yespark/bootstrap-select/issues/1764
 
 -------------------
 
@@ -595,10 +595,10 @@ This project is now mainly maintained by @NicolasCARPi.
 ### New Features
 - Add/update various translations
 
-[#1529]: https://github.com/snapappointments/bootstrap-select/issues/1529
-[#1604]: https://github.com/snapappointments/bootstrap-select/pull/1604
-[#1630]: https://github.com/snapappointments/bootstrap-select/issues/1630
-[#1631]: https://github.com/snapappointments/bootstrap-select/pull/1631
+[#1529]: https://github.com/yespark/bootstrap-select/issues/1529
+[#1604]: https://github.com/yespark/bootstrap-select/pull/1604
+[#1630]: https://github.com/yespark/bootstrap-select/issues/1630
+[#1631]: https://github.com/yespark/bootstrap-select/pull/1631
 
 -------------------
 
@@ -609,9 +609,9 @@ This project is now mainly maintained by @NicolasCARPi.
 * [#1570]: properly adjust size when inside form-group-sm or form-group-lg
 * [#1590]: menu height calculated improperly when using liveSearch and input has custom height
 
-[#1563]: https://github.com/snapappointments/bootstrap-select/issues/1563
-[#1570]: https://github.com/snapappointments/bootstrap-select/issues/1570
-[#1590]: https://github.com/snapappointments/bootstrap-select/issues/1590
+[#1563]: https://github.com/yespark/bootstrap-select/issues/1563
+[#1570]: https://github.com/yespark/bootstrap-select/issues/1570
+[#1590]: https://github.com/yespark/bootstrap-select/issues/1590
 
 -------------------
 
@@ -620,8 +620,8 @@ This project is now mainly maintained by @NicolasCARPi.
 ### Bug Fixes
 * [#1167], [#1366]: using a method before initializing bootstrap-select throws an error
 
-[#1167]: https://github.com/snapappointments/bootstrap-select/issues/1167
-[#1366]: https://github.com/snapappointments/bootstrap-select/issues/1366
+[#1167]: https://github.com/yespark/bootstrap-select/issues/1167
+[#1366]: https://github.com/yespark/bootstrap-select/issues/1366
 
 -------------------
 
@@ -645,20 +645,20 @@ This project is now mainly maintained by @NicolasCARPi.
 * [#1440]: allow HTML in placeholder title for non-multiple selects
 * [#1555]: Use default with SCSS variables
 
-[#1220]: https://github.com/snapappointments/bootstrap-select/issues/1220
-[#1275]: https://github.com/snapappointments/bootstrap-select/issues/1275
-[#1348]: https://github.com/snapappointments/bootstrap-select/issues/1348
-[#1506]: https://github.com/snapappointments/bootstrap-select/issues/1506
-[#1509]: https://github.com/snapappointments/bootstrap-select/issues/1509
-[#1477]: https://github.com/snapappointments/bootstrap-select/issues/1477
-[#1489]: https://github.com/snapappointments/bootstrap-select/issues/1489
-[#1533]: https://github.com/snapappointments/bootstrap-select/issues/1533
-[#1531]: https://github.com/snapappointments/bootstrap-select/issues/1531
-[#1503]: https://github.com/snapappointments/bootstrap-select/issues/1503
-[#1516]: https://github.com/snapappointments/bootstrap-select/issues/1516
-[#1440]: https://github.com/snapappointments/bootstrap-select/issues/1440
-[#1553]: https://github.com/snapappointments/bootstrap-select/issues/1553
-[#1555]: https://github.com/snapappointments/bootstrap-select/issues/1555
+[#1220]: https://github.com/yespark/bootstrap-select/issues/1220
+[#1275]: https://github.com/yespark/bootstrap-select/issues/1275
+[#1348]: https://github.com/yespark/bootstrap-select/issues/1348
+[#1506]: https://github.com/yespark/bootstrap-select/issues/1506
+[#1509]: https://github.com/yespark/bootstrap-select/issues/1509
+[#1477]: https://github.com/yespark/bootstrap-select/issues/1477
+[#1489]: https://github.com/yespark/bootstrap-select/issues/1489
+[#1533]: https://github.com/yespark/bootstrap-select/issues/1533
+[#1531]: https://github.com/yespark/bootstrap-select/issues/1531
+[#1503]: https://github.com/yespark/bootstrap-select/issues/1503
+[#1516]: https://github.com/yespark/bootstrap-select/issues/1516
+[#1440]: https://github.com/yespark/bootstrap-select/issues/1440
+[#1553]: https://github.com/yespark/bootstrap-select/issues/1553
+[#1555]: https://github.com/yespark/bootstrap-select/issues/1555
 
 -------------------
 
@@ -676,9 +676,9 @@ This project is now mainly maintained by @NicolasCARPi.
 * [#1484]: Change events fire twice on IE8
 * [#1489]: hide.bs.select and hidden.bs.select events not fired when "Esc" key pressed with live search enabled
 
-[#1475]: https://github.com/snapappointments/bootstrap-select/issues/1475
-[#1484]: https://github.com/snapappointments/bootstrap-select/issues/1484
-[#1489]: https://github.com/snapappointments/bootstrap-select/issues/1489
+[#1475]: https://github.com/yespark/bootstrap-select/issues/1475
+[#1484]: https://github.com/yespark/bootstrap-select/issues/1484
+[#1489]: https://github.com/yespark/bootstrap-select/issues/1489
 
 -------------------
 
@@ -705,27 +705,27 @@ This project is now mainly maintained by @NicolasCARPi.
 * [58ed408]: support using a string for maxOptionsText
 * [#541]: ARIA - Accessibility
 
-[#1291]: https://github.com/snapappointments/bootstrap-select/issues/1291
-[#1284]: https://github.com/snapappointments/bootstrap-select/issues/1284
-[#1245]: https://github.com/snapappointments/bootstrap-select/issues/1245
-[#1257]: https://github.com/snapappointments/bootstrap-select/issues/1257
-[#1310]: https://github.com/snapappointments/bootstrap-select/issues/1310
-[#1346]: https://github.com/snapappointments/bootstrap-select/issues/1346
-[#1338]: https://github.com/snapappointments/bootstrap-select/issues/1338
-[#1373]: https://github.com/snapappointments/bootstrap-select/issues/1373
-[#1363]: https://github.com/snapappointments/bootstrap-select/issues/1363
-[#1422]: https://github.com/snapappointments/bootstrap-select/issues/1422
-[#1451]: https://github.com/snapappointments/bootstrap-select/issues/1451
-[#1465]: https://github.com/snapappointments/bootstrap-select/issues/1465
-[#1459]: https://github.com/snapappointments/bootstrap-select/issues/1459
-[#1139]: https://github.com/snapappointments/bootstrap-select/issues/1139
-[#1290]: https://github.com/snapappointments/bootstrap-select/issues/1290
-[#1127]: https://github.com/snapappointments/bootstrap-select/issues/1127
-[#1016]: https://github.com/snapappointments/bootstrap-select/issues/1016
-[#1160]: https://github.com/snapappointments/bootstrap-select/issues/1160
-[#1269]: https://github.com/snapappointments/bootstrap-select/issues/1269
-[58ed408]: https://github.com/snapappointments/bootstrap-select/commit/58ed4085019526141be07beeada37788dfe2d316
-[#541]: https://github.com/snapappointments/bootstrap-select/issues/541
+[#1291]: https://github.com/yespark/bootstrap-select/issues/1291
+[#1284]: https://github.com/yespark/bootstrap-select/issues/1284
+[#1245]: https://github.com/yespark/bootstrap-select/issues/1245
+[#1257]: https://github.com/yespark/bootstrap-select/issues/1257
+[#1310]: https://github.com/yespark/bootstrap-select/issues/1310
+[#1346]: https://github.com/yespark/bootstrap-select/issues/1346
+[#1338]: https://github.com/yespark/bootstrap-select/issues/1338
+[#1373]: https://github.com/yespark/bootstrap-select/issues/1373
+[#1363]: https://github.com/yespark/bootstrap-select/issues/1363
+[#1422]: https://github.com/yespark/bootstrap-select/issues/1422
+[#1451]: https://github.com/yespark/bootstrap-select/issues/1451
+[#1465]: https://github.com/yespark/bootstrap-select/issues/1465
+[#1459]: https://github.com/yespark/bootstrap-select/issues/1459
+[#1139]: https://github.com/yespark/bootstrap-select/issues/1139
+[#1290]: https://github.com/yespark/bootstrap-select/issues/1290
+[#1127]: https://github.com/yespark/bootstrap-select/issues/1127
+[#1016]: https://github.com/yespark/bootstrap-select/issues/1016
+[#1160]: https://github.com/yespark/bootstrap-select/issues/1160
+[#1269]: https://github.com/yespark/bootstrap-select/issues/1269
+[58ed408]: https://github.com/yespark/bootstrap-select/commit/58ed4085019526141be07beeada37788dfe2d316
+[#541]: https://github.com/yespark/bootstrap-select/issues/541
 
 -------------------
 
@@ -743,12 +743,12 @@ This project is now mainly maintained by @NicolasCARPi.
 
 Add Lithuanian translations.
 
-[#1268]: https://github.com/snapappointments/bootstrap-select/issues/1268
-[#1273]: https://github.com/snapappointments/bootstrap-select/issues/1273
-[#1295]: https://github.com/snapappointments/bootstrap-select/issues/1295
-[#950]: https://github.com/snapappointments/bootstrap-select/issues/950
-[#1272]: https://github.com/snapappointments/bootstrap-select/issues/1272
-[#1284]: https://github.com/snapappointments/bootstrap-select/issues/1284
+[#1268]: https://github.com/yespark/bootstrap-select/issues/1268
+[#1273]: https://github.com/yespark/bootstrap-select/issues/1273
+[#1295]: https://github.com/yespark/bootstrap-select/issues/1295
+[#950]: https://github.com/yespark/bootstrap-select/issues/950
+[#1272]: https://github.com/yespark/bootstrap-select/issues/1272
+[#1284]: https://github.com/yespark/bootstrap-select/issues/1284
 
 -------------------
 
@@ -760,8 +760,8 @@ Add Lithuanian translations.
 
 Add new translations.
 
-[#1250]: https://github.com/snapappointments/bootstrap-select/issues/1250
-[#1230]: https://github.com/snapappointments/bootstrap-select/issues/1230
+[#1250]: https://github.com/yespark/bootstrap-select/issues/1250
+[#1230]: https://github.com/yespark/bootstrap-select/issues/1230
 
 -------------------
 
@@ -770,4 +770,4 @@ Add new translations.
 ### Bug fixes
 * Fix [#1235] - issue with selects that had `form-control` class
 
-[#1235]: https://github.com/snapappointments/bootstrap-select/issues/1235
+[#1235]: https://github.com/yespark/bootstrap-select/issues/1235

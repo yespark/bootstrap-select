@@ -1,0 +1,12 @@
+name: Tests
+on: [push, pull_request]
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@main
+      - name: Cypress run
+        uses: cypress-io/github-action@main
+        with:
+          build: grunt build

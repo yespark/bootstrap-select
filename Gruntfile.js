@@ -13,7 +13,7 @@ module.exports = function (grunt) {
     ' * Bootstrap-select v<%= pkg.version %> (<%= pkg.homepage %>)\n' +
     ' *\n' +
     ' * Copyright 2012-<%= grunt.template.today(\'yyyy\') %> SnapAppointments, LLC\n' +
-    ' * Licensed under <%= pkg.license %> (https://github.com/snapappointments/bootstrap-select/blob/master/LICENSE)\n' +
+    ' * Licensed under <%= pkg.license %> (https://github.com/yespark/bootstrap-select/blob/master/LICENSE)\n' +
     ' */\n',
 
     // Task configuration.

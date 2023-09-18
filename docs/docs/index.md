@@ -8,8 +8,8 @@ Bootstrap-select requires jQuery v1.9.1+, Bootstrap’s dropdown.js component, a
 
 Several quick start options are available:
 
-- [Download the latest release.](https://github.com/snapappointments/bootstrap-select/archive/v1.14.0-beta3.zip)
-- Clone the repo: `git clone https://github.com/snapappointments/bootstrap-select.git`
+- [Download the latest release.](https://github.com/yespark/bootstrap-select/archive/v1.14.0-beta3.zip)
+- Clone the repo: `git clone https://github.com/yespark/bootstrap-select.git`
 - Install with [npm](https://www.npmjs.com/package/bootstrap-select): `npm install bootstrap-select`
 - Install with [yarn](https://yarn.pm/bootstrap-select): `yarn add bootstrap-select`
 - Install with [Composer](https://getcomposer.org): `composer require snapappointments/bootstrap-select`

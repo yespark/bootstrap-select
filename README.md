@@ -1,11 +1,11 @@
-<h1 align="center">bootstrap-select</h1>
+<h1 align="center">Fork for bootstrap-select on the dev branch with dist generated - Not made to be used publicly</h1>
 
 <p align="center">
 	<strong>The jQuery plugin that brings select elements into the 21st century with intuitive multiselection, searching, and much more. Now with Bootstrap 5 support.</strong>
 </p>
 
 <p align="center">
-	<a href="https://github.com/snapappointments/bootstrap-select/releases/latest" target="_blank">
+	<a href="https://github.com/yespark/bootstrap-select/releases/latest" target="_blank">
 		<img src="https://img.shields.io/github/release/snapappointments/bootstrap-select.svg" alt="Latest release">
 	</a>
 	<a href="https://www.npmjs.com/package/bootstrap-select" target="_blank">
@@ -21,7 +21,7 @@
 		<img src="https://data.jsdelivr.com/v1/package/npm/bootstrap-select/badge?style=rounded" alt="jsDelivr">
 	</a>
 	<br>
-	<a href="https://github.com/snapappointments/bootstrap-select/blob/master/LICENSE" target="_blank">
+	<a href="https://github.com/yespark/bootstrap-select/blob/master/LICENSE" target="_blank">
 		<img src="https://img.shields.io/badge/license-MIT-brightgreen.svg" alt="License">
 	</a>
 </p>
@@ -40,8 +40,8 @@ Bootstrap-select requires jQuery v1.9.1+, Bootstrap’s dropdown.js component, a
 
 Several quick start options are available:
 
-- [Download the latest release.](https://github.com/snapappointments/bootstrap-select/archive/v1.14.0-beta3.zip)
-- Clone the repo: `git clone https://github.com/snapappointments/bootstrap-select.git`
+- [Download the latest release.](https://github.com/yespark/bootstrap-select/archive/v1.14.0-beta3.zip)
+- Clone the repo: `git clone https://github.com/yespark/bootstrap-select.git`
 - Install with [npm](https://www.npmjs.com/package/bootstrap-select): `npm install bootstrap-select`
 - Install with [yarn](https://yarnpkg.com/package/bootstrap-select): `yarn add bootstrap-select`
 - Install with [Composer](https://packagist.org/packages/snapappointments/bootstrap-select): `composer require snapappointments/bootstrap-select`

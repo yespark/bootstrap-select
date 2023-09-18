@@ -21,7 +21,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/snapappointments/bootstrap-select.git"
+    "url": "git://github.com/yespark/bootstrap-select.git"
   },
   "license": "MIT",
   "dependencies": {},
