@@ -13,9 +13,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@main
       - name: Setup Bun
-          uses: oven-sh/setup-bun@main
-          with:
-            bun-version: canary
+        uses: oven-sh/setup-bun@main
+        with:
+          bun-version: canary
       - name: Cypress run with browser ${{ matrix.browser }}
         with:
           start: cypress:open
