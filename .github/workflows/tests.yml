@@ -23,6 +23,9 @@ jobs:
       - name: Cypress run with browser ${{ matrix.browser }}
         uses: cypress-io/github-action@master
         with:
-          start: cypress:open
+          install-command: bun install
+          DEBUG: '@cypress/github-action'
+          # DEBUG: 'cypress:*'
+          start: bun run cypress:open
           wait-on: 'http://localhost:3000'
-          command: bunx cypress run --browser ${{ matrix.browser }}
+          command: bun cypress run --browser ${{ matrix.browser }}
