@@ -20,9 +20,9 @@ jobs:
         uses: oven-sh/setup-bun@main
         with:
           bun-version: canary
-      # - name: Cypress run with browser ${{ matrix.browser }}
-      #   uses: cypress-io/github-action@master
-      #   with:
-      #     start: cypress:open
-      #     wait-on: 'http://localhost:3000'
-      #     command: bunx cypress run --browser ${{ matrix.browser }}
+      - name: Cypress run with browser ${{ matrix.browser }}
+        uses: cypress-io/github-action@master
+        with:
+          start: cypress:open
+          wait-on: 'http://localhost:3000'
+          command: bunx cypress run --browser ${{ matrix.browser }}
