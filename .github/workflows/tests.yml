@@ -12,8 +12,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@main
+      - name: Setup Bun
+          uses: oven-sh/setup-bun@main
+          with:
+            bun-version: canary
       - name: Cypress run with browser ${{ matrix.browser }}
-        uses: cypress-io/github-action@master
         with:
-          build: npx cypress
-          browser: ${{ matrix.browser }}
+          start: cypress:open
+          wait-on: 'http://localhost:3000'
+          command: bunx cypress run -- --browser ${{ matrix.browser }}

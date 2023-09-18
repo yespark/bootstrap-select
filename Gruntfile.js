@@ -25,22 +25,23 @@ module.exports = function (grunt) {
     },
 
     eslint: {
-      options: {
-        overrideConfigFile: 'js/.eslintrc.json'
-      },
       gruntfile: {
         options: {
-          'envs': [
-            'node'
-          ]
+          overrideConfigFile: 'js/.eslintrc.node.json'
         },
         src: 'Gruntfile.js'
       },
       main: {
-        src: 'js/*.js'
+        src: 'js/*.js',
+        options: {
+          overrideConfigFile: 'js/.eslintrc.browser.json'
+        }
       },
       i18n: {
-        src: 'js/i18n/*.js'
+        src: 'js/i18n/*.js',
+        options: {
+          overrideConfigFile: 'js/.eslintrc.browser.json'
+        }
       }
     },
 
