@@ -50,7 +50,8 @@
     "uuid": "^9.0.1"
   },
   "scripts": {
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "tests": "cypress run -- --browser chrome --spec cypress/e2e/basic.cy.js"
   },
   "browserslist": [
     "Android 2.3",

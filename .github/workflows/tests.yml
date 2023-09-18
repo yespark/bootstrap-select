@@ -3,10 +3,16 @@ on: [push, pull_request]
 jobs:
   tests:
     runs-on: ubuntu-latest
+    container:
+      image: cypress/browsers:latest
+      options: --user 1001
+    strategy:
+      matrix:
+        browser: ["chrome", "edge", "firefox"]
     steps:
       - name: Checkout
         uses: actions/checkout@main
-      - name: Cypress run
-        uses: cypress-io/github-action@maaster
+      - name: Cypress run with browser ${{ matrix.browser }}
+        uses: cypress-io/github-action@master
         with:
-          build: grunt build
+          browser: ${{ matrix.browser }}
