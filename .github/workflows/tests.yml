@@ -8,11 +8,12 @@ jobs:
       options: --user 1001
     strategy:
       matrix:
-        browser: ["chrome", "edge", "firefox"]
+        browser: ["chrome", "firefox"]
     steps:
       - name: Checkout
         uses: actions/checkout@main
       - name: Cypress run with browser ${{ matrix.browser }}
         uses: cypress-io/github-action@master
         with:
+          build: npx cypress
           browser: ${{ matrix.browser }}
