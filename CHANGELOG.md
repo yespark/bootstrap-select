@@ -2,7 +2,7 @@
 - using dev branch
 - remove minification as it's in our pipeline that it's done
 - upgrade packages
-- migrate to bun
+- migrate to yarn plug'n play
 - focus on bootstrap 5
 - merge https://github.com/snapappointments/bootstrap-select/pull/2841
 - merge https://github.com/snapappointments/bootstrap-select/pull/2842

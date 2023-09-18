@@ -1,0 +1,95 @@
+Arguments: 
+  /Users/navid/.asdf/installs/nodejs/20.4.0/bin/node /Users/navid/.cache/node/corepack/yarn/1.22.19/bin/yarn.js set version from sources
+
+PATH: 
+  /Users/navid/.asdf/plugins/nodejs/shims:/Users/navid/.asdf/installs/nodejs/20.4.0/bin:/Users/navid/.asdf/shims:/opt/homebrew/opt/asdf/libexec/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Applications/iTerm.app/Contents/Resources/utilities:/Applications/Visual Studio Code.app/Contents/Resources/app/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.4.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: Release not found: from
+      at /Users/navid/.cache/node/corepack/yarn/1.22.19/lib/cli.js:86358:17
+      at Generator.next (<anonymous>)
+      at step (/Users/navid/.cache/node/corepack/yarn/1.22.19/lib/cli.js:310:30)
+      at /Users/navid/.cache/node/corepack/yarn/1.22.19/lib/cli.js:321:13
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+npm manifest: 
+  {
+    "name": "bootstrap-select",
+    "title": "bootstrap-select",
+    "main": "dist/js/bootstrap-select.js",
+    "description": "The jQuery plugin that brings select elements into the 21st century with intuitive multiselection, searching, and much more. Now with Bootstrap 4 support.",
+    "version": "1.14.0-beta3",
+    "homepage": "https://developer.snapappointments.com/bootstrap-select",
+    "author": {
+      "name": "Casey Holzer",
+      "url": "https://github.com/caseyjhol"
+    },
+    "contributors": [
+      {
+        "name": "Silvio Moreto",
+        "url": "https://github.com/silviomoreto"
+      },
+      {
+        "name": "SnapAppointments, LLC",
+        "url": "https://snapappointments.com"
+      }
+    ],
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/yespark/bootstrap-select.git"
+    },
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {
+      "cypress": "^13.2.0",
+      "dart-sass": "^1.25.0",
+      "grunt": "^1.6.1",
+      "grunt-banner": "^0.6.0",
+      "grunt-contrib-clean": "^2.0.1",
+      "grunt-contrib-concat": "^2.1.0",
+      "grunt-contrib-copy": "^1.0.0",
+      "grunt-contrib-csslint": "^2.0.0",
+      "grunt-contrib-watch": "^1.1.0",
+      "grunt-dart-sass": "^2.0.1",
+      "grunt-eslint": "^24.3.0",
+      "grunt-version": "^3.0.1",
+      "load-grunt-tasks": "^5.1.0",
+      "sass": "^1.67.0",
+      "uuid": "^9.0.1"
+    },
+    "scripts": {
+      "test": "cypress run --browser chrome",
+      "build-css": "grunt build-css",
+      "build-js": "grunt build-js",
+      "copy-docs": "grunt copy-docs",
+      "build": "grunt build",
+      "dev-watch": "grunt dev-watch",
+      "dist": "grunt dist",
+      "lint": "grunt lint"
+    },
+    "browserslist": "defaults",
+    "keywords": [
+      "javascript",
+      "jquery",
+      "form",
+      "bootstrap",
+      "dropdown",
+      "select",
+      "replacement"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -6,26 +6,17 @@ concurrency:
 jobs:
   tests:
     runs-on: ubuntu-latest
-    # container:
-    #   image: cypress/browsers:latest
-    #   options: --user 1001
+    container:
+      image: cypress/browsers:latest
+      options: --user 1001
     strategy:
       matrix:
-        browser: ["chrome"]
-        # browser: ["chrome", "firefox"]
+        browser: ["chrome", "firefox"]
     steps:
       - name: Checkout
         uses: actions/checkout@main
-      - name: Setup Bun
-        uses: oven-sh/setup-bun@main
-        with:
-          bun-version: canary
       - name: Cypress run with browser ${{ matrix.browser }}
         uses: cypress-io/github-action@master
-        env:
-          DEBUG: 'cypress:*'
         with:
-          install-command: bun install
-          command: bun cypress run --browser ${{ matrix.browser }}
-          # start: bun run cypress:open
-          # wait-on: 'http://localhost:3000'
+          browser: ${{ matrix.browser }}
+          install-command: yarn install

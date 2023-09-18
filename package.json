@@ -24,12 +24,7 @@
     "url": "git://github.com/yespark/bootstrap-select.git"
   },
   "license": "MIT",
-  "dependencies": {},
-  "peerDependencies": {
-    "typescript": "^5.0.0"
-  },
   "devDependencies": {
-    "bun-types": "latest",
     "cypress": "^13.2.0",
     "dart-sass": "^1.25.0",
     "grunt": "^1.6.1",
@@ -47,15 +42,14 @@
     "uuid": "^9.0.1"
   },
   "scripts": {
+    "test": "cypress run --browser chrome",
     "build-css": "grunt build-css",
     "build-js": "grunt build-js",
     "copy-docs": "grunt copy-docs",
     "build": "grunt build",
     "dev-watch": "grunt dev-watch",
     "dist": "grunt dist",
-    "lint": "grunt lint",
-    "cypress:open": "cypress open",
-    "tests": "cypress run --browser chrome"
+    "lint": "grunt lint"
   },
   "browserslist": "defaults",
   "keywords": [
@@ -66,5 +60,6 @@
     "dropdown",
     "select",
     "replacement"
-  ]
+  ],
+  "packageManager": "yarn@3.6.3"
 }
