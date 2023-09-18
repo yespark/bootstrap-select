@@ -2,7 +2,7 @@
   "name": "bootstrap-select",
   "description": "The jQuery plugin that brings select elements into the 21st century with intuitive multiselection, searching, and much more.",
   "main": [
-    "./less/bootstrap-select.less",
+    "./sass/bootstrap-select.scss",
     "./dist/css/bootstrap-select.css",
     "./dist/js/bootstrap-select.js"
   ],
@@ -49,7 +49,6 @@
     "docs",
     "js",
     "!dist/js",
-    "nuget",
     "tests"
   ]
 }

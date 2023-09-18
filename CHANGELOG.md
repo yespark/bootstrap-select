@@ -1,5 +1,6 @@
 ### Fork changes
 - using dev branch
+- remove minification as it's in our pipeline that it's done
 - upgrade packages
 - migrate to bun
 - focus on bootstrap 5

@@ -5,6 +5,5 @@ CONTRIBUTING.md
 cypress*
 docs/
 Gruntfile.js
-nuget/
 README.md
 tests/

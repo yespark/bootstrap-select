@@ -11,9 +11,6 @@
 	<a href="https://www.npmjs.com/package/bootstrap-select" target="_blank">
 		<img src="https://img.shields.io/npm/v/bootstrap-select.svg" alt="npm">
 	</a>
-	<a href="https://www.nuget.org/packages/bootstrap-select" target="_blank">
-		<img src="https://img.shields.io/nuget/v/bootstrap-select.svg" alt="NuGet">
-	</a>
 	<a href="https://cdnjs.com/libraries/bootstrap-select" target="_blank">
 		<img src="https://img.shields.io/cdnjs/v/bootstrap-select.svg" alt="CDNJS">
 	</a>
@@ -45,19 +42,18 @@ Several quick start options are available:
 - Install with [npm](https://www.npmjs.com/package/bootstrap-select): `npm install bootstrap-select`
 - Install with [yarn](https://yarnpkg.com/package/bootstrap-select): `yarn add bootstrap-select`
 - Install with [Composer](https://packagist.org/packages/yespark/bootstrap-select): `composer require yespark/bootstrap-select`
-- Install with [NuGet](https://www.nuget.org/packages/bootstrap-select): `Install-Package bootstrap-select`
 - Install with [Bower](https://bower.io): `bower install bootstrap-select`
 - Install via CDN ([cdnjs](https://cdnjs.com/libraries/bootstrap-select), [jsDelivr](https://www.jsdelivr.com/package/npm/bootstrap-select) or [PageCDN](https://pagecdn.com/lib/bootstrap-select)):
 
 ```html
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta3/dist/css/bootstrap-select.min.css">
+<!-- Latest compiled CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta3/dist/css/bootstrap-select.css">
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta3/dist/js/bootstrap-select.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta3/dist/js/bootstrap-select.js"></script>
 
-<!-- (Optional) Latest compiled and minified JavaScript translation files -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta3/dist/js/i18n/defaults-*.min.js"></script>
+<!-- (Optional) Latest compiled JavaScript translation files -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta3/dist/js/i18n/defaults-*.js"></script>
 ```
 > The CDN is updated after the release is made public, which means that there is a delay between the publishing of a release and its availability on the CDN.
 

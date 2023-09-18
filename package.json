@@ -29,25 +29,22 @@
     "typescript": "^5.0.0"
   },
   "devDependencies": {
-    "autoprefixer": "^9.8.7",
+    "bun-types": "latest",
     "cypress": "^13.2.0",
+    "dart-sass": "^1.25.0",
     "grunt": "^1.6.1",
     "grunt-banner": "^0.6.0",
     "grunt-contrib-clean": "^2.0.1",
-    "grunt-contrib-compress": "^2.0.0",
     "grunt-contrib-concat": "^2.1.0",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-csslint": "^2.0.0",
-    "grunt-contrib-cssmin": "^5.0.0",
-    "grunt-contrib-less": "^3.0.0",
-    "grunt-contrib-uglify": "^5.2.2",
     "grunt-contrib-watch": "^1.1.0",
+    "grunt-dart-sass": "^2.0.1",
     "grunt-eslint": "^24.3.0",
-    "grunt-postcss": "^0.9.0",
     "grunt-version": "^3.0.1",
     "load-grunt-tasks": "^5.1.0",
-    "uuid": "^9.0.1",
-    "bun-types": "latest"
+    "sass": "^1.67.0",
+    "uuid": "^9.0.1"
   },
   "scripts": {
     "build-css": "grunt build-css",
@@ -60,16 +57,7 @@
     "cypress:open": "cypress open",
     "tests": "cypress run --browser chrome"
   },
-  "browserslist": [
-    "Android 2.3",
-    "Android >= 4",
-    "Chrome >= 20",
-    "Firefox >= 24",
-    "Explorer >= 8",
-    "iOS >= 6",
-    "Opera >= 12",
-    "Safari >= 6"
-  ],
+  "browserslist": "defaults",
   "keywords": [
     "javascript",
     "jquery",
