@@ -6,7 +6,6 @@ concurrency:
 jobs:
   run-lint:
     runs-on: ubuntu-latest
-    name: L ${{ matrix.node }} test
     steps:
       - uses: actions/checkout@main
       - name: Setup node
