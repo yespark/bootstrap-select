@@ -3027,7 +3027,6 @@
 
       this.$searchbox.on('input propertychange', function () {
         var searchValue = that.$searchbox[0].value;
-        // https://github.com/snapappointments/bootstrap-select/pull/2844/files#diff-eca1e0510b5a8b4008f5f3296b930bb43428760a66b4695fc69655d2f05ae5b0
         var isWhitespace = /^\s*$/.test(searchValue);
         if (!isWhitespace) {
           searchValue = searchValue.replace(/^\s+|\s+$/g, '');
