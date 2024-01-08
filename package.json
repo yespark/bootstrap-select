@@ -25,11 +25,11 @@
   },
   "engines": {
     "node": ">= 20.4",
-    "yarn": "4.0.0-rc.51"
+    "yarn": "4.0.2"
   },
   "license": "MIT",
   "devDependencies": {
-    "cypress": "^13.2.0",
+    "cypress": "^13.6.2",
     "dart-sass": "^1.25.0",
     "grunt": "^1.6.1",
     "grunt-banner": "^0.6.0",
@@ -42,7 +42,7 @@
     "grunt-eslint": "^24.3.0",
     "grunt-version": "^3.0.1",
     "load-grunt-tasks": "^5.1.0",
-    "sass": "^1.67.0",
+    "sass": "^1.69.7",
     "uuid": "^9.0.1"
   },
   "scripts": {
@@ -53,7 +53,8 @@
     "build": "grunt build",
     "dev-watch": "grunt dev-watch",
     "dist": "grunt dist",
-    "lint": "grunt lint"
+    "lint": "grunt lint",
+    "test:e2e": "grunt build && cypress run"
   },
   "browserslist": "defaults",
   "keywords": [
